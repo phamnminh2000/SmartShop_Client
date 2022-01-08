@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <title>ShopPhukien</title>
+    <title>SmartShop</title>
     <!-- Google font -->
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,700" rel="stylesheet">
     <!-- Bootstrap -->
@@ -29,8 +29,8 @@
         <div id="top-header">
             <div class="container">
                 <ul class="header-links pull-left">
-                    <li><a href="#"><i class="fa fa-phone"></i> 9999999999</a></li>
-                    <li><a href="#"><i class="fa fa-envelope-o"></i> shopphukien.tttteam@gmail.com</a></li>
+                    <li><a href="#"><i class="fa fa-phone"></i> 0123456789</a></li>
+                    <li><a href="#"><i class="fa fa-envelope-o"></i> zoey.dev.nul@gmail.com</a></li>
                     <li><a href="#"><i class="fa fa-map-marker"></i> 227 Nguyễn Văn Cừ, Phường 4, Quận 5, Thành phố Hồ Chí Minh</a></li>
                 </ul>
                 <ul class="header-links pull-right">
@@ -65,10 +65,10 @@
                             <form action="/search" method="POST">
                                 <select class="input-select" name="category">
                                     <option value="" selected>Tất cả</option>
-                                    <option value="Bàn%20phím"<% if (typeof category != 'undefined' && category == "Bàn phím") { %> selected <% } %>>Bàn phím</option>
-                                    <option value="Chuột"<% if (typeof category != 'undefined' && category == "Chuột") { %> selected <% } %>>Chuột</option>
-                                    <option value="Loa"<% if (typeof category != 'undefined' && category == "Loa") { %> selected <% } %>>Loa</option>
-                                    <option value="Tai%20nghe"<% if (typeof category != 'undefined' && category == "Tai nghe") { %> selected <% } %>>Tai nghe</option>
+                                    <option value="Đồng%20hồ%20cơ"<% if (typeof category != 'undefined' && category == "Đồng hồ cơ") { %> selected <% } %>>Đồng hồ cơ</option>
+                                    <option value="Đồng%20hồ%20điện%20tử"<% if (typeof category != 'undefined' && category == "Đồng hồ điện tử") { %> selected <% } %>>Đồng hồ điện tử</option>
+                                    <option value="Eco-Drive"<% if (typeof category != 'undefined' && category == "Eco-Drive") { %> selected <% } %>>Eco-Drive</option>
+                                    <option value="Đồng%20hồ%20pin"<% if (typeof category != 'undefined' && category == "Đồng hồ pin") { %> selected <% } %>>Đồng hồ pin</option>
                                 </select>
                                 <input class="input" auto-focus tab-index='1' type='text' auto-complete='search'
                                     name="name" id='inputSearch' placeholder="Nhập từ khóa" autocomplete="on"
@@ -144,10 +144,10 @@
                                 <a>Loại sản phẩm</a>
                             </button>
                             <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                                <a class="dropdown-item" href="/store?category=Bàn%20phím">Bàn phím<br></a>
-                                <a class="dropdown-item" href="/store?category=Chuột">Chuột<br></a>
-                                <a class="dropdown-item" href="/store?category=Loa">Loa<br></a>
-                                <a class="dropdown-item" href="/store?category=Tai%20nghe">Tai nghe<br></a>
+                                <a class="dropdown-item" href="/store?category=Đồng%20hồ%20cơ">Đồng hồ cơ<br></a>
+                                <a class="dropdown-item" href="/store?category=Đồng%20hồ%20pin">Đồng hồ pin<br></a>
+                                <a class="dropdown-item" href="/store?category=Đồng%20hồ%20điện%20tử">Đồng hồ điện tử<br></a>
+                                <a class="dropdown-item" href="/store?category=Eco-Drive">Eco-Drive<br></a>
                             </div>
                         </div>
                     </li>
@@ -160,11 +160,11 @@
                                 <a>Nhà sản xuất</a>
                             </button>
                             <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                                <a class="dropdown-item" href="/store?producer=Asus">Asus<br></a>
-                                <a class="dropdown-item" href="/store?producer=Fulhen">Fuhlen<br></a>
-                                <a class="dropdown-item" href="/store?producer=Logitech">Logitech<br></a>
-                                <a class="dropdown-item" href="/store?producer=Sony">Sony<br></a>
-                                <a class="dropdown-item" href="/store?producer=Razer">Razer<br></a>
+                                <a class="dropdown-item" href="/store?producer=Casio">Casio<br></a>
+                                <a class="dropdown-item" href="/store?producer=Citizen">Citizen<br></a>
+                                <a class="dropdown-item" href="/store?producer=DW">DW<br></a>
+                                <a class="dropdown-item" href="/store?producer=Orient">Orient<br></a>
+                                <a class="dropdown-item" href="/store?producer=Seiko">Seiko<br></a>
                             </div>
                         </div>
                     </li>
