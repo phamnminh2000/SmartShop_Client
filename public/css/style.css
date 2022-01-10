@@ -415,7 +415,7 @@ textarea.input {
 #top-header {
   padding-top: 5px;
   padding-bottom: 5px;
-  background-color: #6a6f6f;
+  background-color: #000000;
 }
 
 .header-links{
@@ -451,7 +451,7 @@ textarea.input {
 #header {
   padding-top: 15px;
   padding-bottom: 15px;
-  background-color:#324041;
+  background-color:#f5f23b;
 }
 
 .header-logo {
@@ -462,6 +462,9 @@ textarea.input {
   display: block;
 }
 
+.color-p{
+  color: #000000;
+}
 /*----------------------------*\
 	Search
 \*----------------------------*/
@@ -880,7 +883,11 @@ textarea.input {
 }
 
 .product .product-img>img {
-  width: 100%;
+  display: block;
+  max-height:334px;
+  width: 90%;
+  height: auto;
+  /*width: 100%;*/
 }
 
 .product .product-img .product-label {
@@ -2012,7 +2019,7 @@ textarea.input {
 ===========================================================*/
 
 #footer {
-  background: #324041;
+  background: #000000;
   color: #B9BABC;
 }
 .footer {
